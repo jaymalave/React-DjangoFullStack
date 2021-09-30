@@ -4,7 +4,7 @@ export default class Room extends Component{
     constructor(props){
         super(props);
         this.state = {
-            votesToSkip: 2,
+            votesToSkip: 3,
             guestCanPause: false,
             isHost: false,
         };
